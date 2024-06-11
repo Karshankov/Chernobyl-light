@@ -1,0 +1,40 @@
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+}
+
+.text {
+  color: #fff;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  color: #242424;
+  margin-top: 5rem;
+}
+
+.App {
+  padding: 20px;
+  background-color: #c0c9c2;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  background-color: #454946;
+  color: #ffffff;
+  padding: 1.2em;
+  gap: 1.2rem;
+  border-radius: 10px;
+  flex-direction: column;
+  flex-basis: calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+}
